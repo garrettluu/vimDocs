@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "vimDocs",
+  "version": "1",
+
+  "content_scripts": [
+    {
+      "matches": ["http://docs.google.com/document/d/*/edit"],
+      "js": ["utils/jquery-3.3.1.min.js", "utils/docs.js", "utils/utils.js", "utils/editor-input.js", "main.js"]
+    }
+  ]
+
+}
