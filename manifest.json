@@ -5,8 +5,9 @@
 
   "content_scripts": [
     {
-      "matches": ["http://docs.google.com/document/d/*/edit"],
-      "js": ["utils/jquery-3.3.1.min.js", "utils/docs.js", "utils/utils.js", "utils/editor-input.js", "main.js"]
+      "matches": ["https://docs.google.com/document/d/*/edit"],
+      "css": ["main.css"],
+      "js": ["utils/jquery-3.3.1.min.js", "main.js"]
     }
   ]
 
